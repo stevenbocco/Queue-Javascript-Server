@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>XMLHttpRequest Queue</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="first_prompt" id="first_p">
+        <h1>Albins Helping Queue</h1>
+        <input type="text" id="table" placeholder="Type table number..."/><br>
+        <button onClick="get_table_number()">ENTER QUEUE</button>
+    </div>
+
+    <div class="second_prompt" id="second_p">
+        <h1>Albins Helping Queue</h1>
+        <h2 id="pos">YOUR POSITION IN QUEUE</h2>
+        <h2 id="plats" style="color:white;"></h2>
+        <button onClick="done()" id="gotHelp">DONE</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+body{
+  background: #3B3738;
+  color: white;
+  padding:0;
+  margin:0;
+  font-family: Arial;
+}
+
+.first_prompt{
+  position:fixed;
+  width:100%;
+  height:100vh;
+  margin:auto;
+  text-align: center;
+  font-size: 2em;
+  background:	#517b96;
+  border-bottom: solid 3px #1b2932;
+  z-index: 2;
+}
+
+.first_prompt input{
+  width:50%;
+  height:30px;
+  font-size: 20px;
+}
+
+.first_prompt button{
+  width:200px;
+  height:50px;
+  margin-top:30px;
+  font-size: 20px;
+  background:#365264;
+  border: none;
+  color:white;
+  border-bottom: solid #1b2932 2px;
+}
+
+.second_prompt{
+  position:fixed;
+  width:100%;
+  height:100vh;
+  margin:auto;
+  text-align: center;
+  font-size: 2em;
+  background:#365264;
+  z-index: 1;
+}
+
+.second_prompt button{
+  width:200px;
+  height:50px;
+  margin-top:30px;
+  font-size: 20px;
+  background:#CF6870;
+  border: none;
+  color:white;
+  visibility: hidden;
+}
+
+@keyframes main1Up{
+  100% {transform: translateY(-100vh);}
+}
+@-webkit-keyframes main1Up{
+  100% {transform: translateY(-100vh);}
+}
+@-moz-keyframes main1Up{
+  100% {transform: translateY(-100vh);}
+}
+@-o-keyframes main1Up{
+  100% {transform: translateY(-100vh);}
+}
